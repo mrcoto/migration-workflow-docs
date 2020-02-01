@@ -1,11 +1,12 @@
-# Ejemplo de API Realizado con Vuepress
+# Migration Workflow Docs
 
-Entrar a: [https://mrcoto.github.io/migration-workflow-docs/dist/](https://mrcoto.github.io/migration-workflow-docs/dist/)
-
-El modo desarrollo está en la rama `dev` y en la rama `master` se encuentra el build.
+|Versión|Link|
+|---|---|
+|*2.0*|[https://mrcoto.github.io/migration-workflow-docs/2.0/](https://mrcoto.github.io/migration-workflow-docs/2.0/)|
+|*1.4*|[https://mrcoto.github.io/migration-workflow-docs/1.4/](https://mrcoto.github.io/migration-workflow-docs/1.4/)|
 
 Pasos:
 
 - Instalar Vuepress
-- `vuepress dev docs` en modo desarrollo
-- `vuepress build docs` para generar el build (.html y .js asociados). Se generan en `docs/.vuepress/dist`
+- `vuepress dev docs-2.0` en modo desarrollo
+- `vuepress build docs-2.0` para generar el build (.html y .js asociados). Se generan en `docs/.vuepress/dist`
