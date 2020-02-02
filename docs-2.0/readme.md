@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: API V1
-tagline: Empresa Backend
-actionText: Comenzar →
-actionLink: /content/auth/user/
-footer: Licencia MIT | Copyright @ 2019 - <autor>
+heroText: Migration Workflow
+tagline: A Laravel Package
+actionText: Getting Started →
+actionLink: /content/getting-started/
+footer: Licencia MIT | Copyright @ 2019 - José Espinoza
 ---
 

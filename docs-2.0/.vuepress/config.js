@@ -1,9 +1,9 @@
 module.exports = {
   base: '/migration-workflow-docs/2.0/',
-  title: 'EMPRESA',
-  description: 'Descripción',
+  title: 'Migration Workflow',
+  description: 'Migration Workflow Laravel Package',
   markdown: {
-    lineNumbers: true
+    lineNumbers: false
   },
   themeConfig: {
     nav: [
@@ -12,25 +12,54 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Usuario y Amigos',
-        path: '/content/auth/user/',
+        title: 'Getting Started',
+        path: '/content/getting-started/',
         collapsable: true,
         sidebarDepth: 2,
-        children: [
-          '/content/auth/user/',
-          '/content/auth/friend/',
-        ]
       },
       {
-        title: 'Invitaciones',
-        path: '/content/invitation/email/',
+        title: 'Installation',
+        path: '/content/installation/',
         collapsable: true,
         sidebarDepth: 2,
-        children: [
-          '/content/invitation/email/',
-        ]
-      }
+      },
+      {
+        title: 'Quickstart',
+        path: '/content/quickstart/',
+        collapsable: true,
+        sidebarDepth: 2,
+      },
+      {
+        title: 'Make Command',
+        path: '/content/commands/make/',
+        collapsable: true,
+        sidebarDepth: 2,
+      },
+      {
+        title: 'Module Make Command',
+        path: '/content/commands/module-make/',
+        collapsable: true,
+        sidebarDepth: 2,
+      },
+      {
+        title: 'Deploy Command',
+        path: '/content/commands/deploy/',
+        collapsable: true,
+        sidebarDepth: 2,
+      },
+      {
+        title: 'Migrate Command',
+        path: '/content/commands/migrate/',
+        collapsable: true,
+        sidebarDepth: 2,
+      },
+      {
+        title: 'Delete Command',
+        path: '/content/commands/delete/',
+        collapsable: true,
+        sidebarDepth: 2,
+      },
     ],
-    lastUpdated: 'Última Vez Actualizado', // string | boolean
+    lastUpdated: 'Last Updated', // string | boolean
   }
 }
