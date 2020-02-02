@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+# heroImage: /logo.png
 heroText: Migration Workflow
 tagline: A Laravel Package
 actionText: Getting Started →
