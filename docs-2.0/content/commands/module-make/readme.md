@@ -76,8 +76,8 @@ php artisan module:make-workflow Sale MyWorkflow develop,production --date
 Generates:
 
 ```bash
-Modules\Sale\MigrationWorkflows\2020\02\01\MyWorkflow_develop_2020_02_01_205440
-Modules\Sale\MigrationWorkflows\2020\02\01\MyWorkflow_production_2020_02_01_205440
+Modules\Sale\MigrationWorkflows\Y2020\M02\D01\MyWorkflow_develop_2020_02_01_205440
+Modules\Sale\MigrationWorkflows\Y2020\M02\D01\MyWorkflow_production_2020_02_01_205440
 ```
 
 ## Owndir and Date option
@@ -89,6 +89,6 @@ php artisan module:make-workflow Sale MyWorkflow develop,production --owndir --d
 Generates:
 
 ```bash
-Modules\Sale\MigrationWorkflows\Develop\2020\02\01\MyWorkflow_develop_2020_02_01_205440
-Modules\Sale\MigrationWorkflows\Production\2020\02\01\MyWorkflow_production_2020_02_01_205440
+Modules\Sale\MigrationWorkflows\Develop\Y2020\M02\D01\MyWorkflow_develop_2020_02_01_205440
+Modules\Sale\MigrationWorkflows\Production\Y2020\M02\D01\MyWorkflow_production_2020_02_01_205440
 ```
