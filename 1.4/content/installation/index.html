@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Installation | Migration Workflow V1.4</title>
+    <meta name="description" content="Migration Workflow Laravel Package">
+    <meta name="generator" content="VuePress 1.3.0">
+    
+    
+    <link rel="preload" href="/migration-workflow-docs/1.4/assets/css/0.styles.7b6da9f2.css" as="style"><link rel="preload" href="/migration-workflow-docs/1.4/assets/js/app.c1092dcd.js" as="script"><link rel="preload" href="/migration-workflow-docs/1.4/assets/js/2.b6a159fb.js" as="script"><link rel="preload" href="/migration-workflow-docs/1.4/assets/js/11.d13b2fff.js" as="script"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/10.606ad3d8.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/12.bcc43797.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/13.8b3a5355.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/14.3ba1a09b.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/3.7faf153c.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/4.dc98b480.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/5.a6dd6712.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/6.7fbc4607.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/7.57599ed3.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/8.cde75f78.js"><link rel="prefetch" href="/migration-workflow-docs/1.4/assets/js/9.0590bfa4.js">
+    <link rel="stylesheet" href="/migration-workflow-docs/1.4/assets/css/0.styles.7b6da9f2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/migration-workflow-docs/1.4/" class="home-link router-link-active"><!----> <span class="site-name">Migration Workflow V1.4</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/migration-workflow-docs/1.4/" class="nav-link">
+  Inicio
+</a></div><div class="nav-item"><a href="https://github.com/mrcoto/migration-workflow-docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/migration-workflow-docs/1.4/" class="nav-link">
+  Inicio
+</a></div><div class="nav-item"><a href="https://github.com/mrcoto/migration-workflow-docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/migration-workflow-docs/1.4/content/getting-started/" class="sidebar-link">Getting Started</a></li><li><a href="/migration-workflow-docs/1.4/content/installation/" class="active sidebar-link">Installation</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/migration-workflow-docs/1.4/content/installation/#config-file" class="sidebar-link">Config File</a></li></ul></li><li><a href="/migration-workflow-docs/1.4/content/quickstart/" class="sidebar-link">Quickstart</a></li><li><a href="/migration-workflow-docs/1.4/content/commands/make/" class="sidebar-link">Make Command</a></li><li><a href="/migration-workflow-docs/1.4/content/commands/module-make/" class="sidebar-link">Module Make Command</a></li><li><a href="/migration-workflow-docs/1.4/content/commands/deploy/" class="sidebar-link">Deploy Command</a></li><li><a href="/migration-workflow-docs/1.4/content/commands/migrate/" class="sidebar-link">Migrate Command</a></li><li><a href="/migration-workflow-docs/1.4/content/commands/delete/" class="sidebar-link">Delete Command</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="installation"><a href="#installation" class="header-anchor">#</a> Installation</h1> <p>Requires PHP 7.2 or greater</p> <div class="language-bash extra-class"><pre class="language-bash"><code>composer require mrcoto/migration-workflow:1.4.1
+</code></pre></div><p>Now, you need to publish service provider:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>php artisan vendor:publish --provider<span class="token operator">=</span><span class="token string">&quot;MrCoto\MigrationWorkflow\Application\LaravelMigrationWorkflowServiceProvider&quot;</span>
+</code></pre></div><h2 id="config-file"><a href="#config-file" class="header-anchor">#</a> Config File</h2> <p>The most important config value is <code>workflows</code>, here you define the starting point folders where all your migration workflows will be looked for.</p> <p>If you are using <a href="https://github.com/nWidart/laravel-modules" target="_blank" rel="noopener noreferrer">Laravel Modules Package<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>, you need to add <code>Modules\&lt;Module_Name&gt;\MigrationWorkflows</code>.</p> <div class="language-php extra-class"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+<span class="token keyword">return</span> <span class="token punctuation">[</span>
+
+    <span class="token comment">/*
+    |--------------------------------------------------------------------------
+    | Migration Workflow Table Name
+    |--------------------------------------------------------------------------
+    |
+    | All your deployed migrations run via migrate:deploy will be placed in this table
+    |
+    */</span>
+    <span class="token single-quoted-string string">'table_name'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'migration_workflow'</span><span class="token punctuation">,</span>
+
+    <span class="token comment">/*
+    |--------------------------------------------------------------------------
+    | Migration Workflow Detail Table Name
+    |--------------------------------------------------------------------------
+    |
+    | All steps and files (detail of migration workflow header table) will be placed here
+    |
+    */</span>
+    <span class="token single-quoted-string string">'table_name_detail'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'migration_workflow_detail'</span><span class="token punctuation">,</span>
+
+    <span class="token comment">/*
+    |--------------------------------------------------------------------------
+    | Folders where workflows will be looked for
+    |--------------------------------------------------------------------------
+    |
+    | You may specify namespace path from where your workflows are placed
+    | Notice that migrate:deploy run your workflows in ascending order,
+    | omitting already migrated
+    |
+    */</span>
+    <span class="token single-quoted-string string">'workflows'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span>
+        <span class="token single-quoted-string string">'App\MigrationWorkflows'</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+    <span class="token comment">/*
+    |--------------------------------------------------------------------------
+    | Logger Class
+    |--------------------------------------------------------------------------
+    |
+    | Logger Class for logging
+    |
+    */</span>
+    <span class="token single-quoted-string string">'logger'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> MrCoto\<span class="token package">MigrationWorkflow<span class="token punctuation">\</span>Logger<span class="token punctuation">\</span>Handler<span class="token punctuation">\</span>ConsoleMonologLogger</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token keyword">class</span><span class="token punctuation">,</span>
+
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</span></code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">2/1/2020, 9:53:06 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/migration-workflow-docs/1.4/content/getting-started/" class="prev">
+        Getting Started
+      </a></span> <span class="next"><a href="/migration-workflow-docs/1.4/content/quickstart/">
+        Quickstart
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/migration-workflow-docs/1.4/assets/js/app.c1092dcd.js" defer></script><script src="/migration-workflow-docs/1.4/assets/js/2.b6a159fb.js" defer></script><script src="/migration-workflow-docs/1.4/assets/js/11.d13b2fff.js" defer></script>
+  </body>
+</html>
