@@ -2,7 +2,7 @@
 
 |Versión|Link|
 |---|---|
-|*2.0*|[https://mrcoto.github.io/migration-workflow-docs/2.0/](https://mrcoto.github.io/migration-workflow-docs/2.0/)|
+|*2.0.2*|[https://mrcoto.github.io/migration-workflow-docs/2.0/](https://mrcoto.github.io/migration-workflow-docs/2.0/)|
 |*1.4*|[https://mrcoto.github.io/migration-workflow-docs/1.4/](https://mrcoto.github.io/migration-workflow-docs/1.4/)|
 
 Pasos:

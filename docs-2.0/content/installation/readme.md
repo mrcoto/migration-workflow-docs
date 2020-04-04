@@ -3,7 +3,7 @@
 Requires PHP 7.2 or greater
 
 ```bash
-composer require mrcoto/migration-workflow:2.0
+composer require mrcoto/migration-workflow:2.0.2
 ```
 
 Now, you need to publish service provider:
