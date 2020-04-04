@@ -1,6 +1,6 @@
 module.exports = {
   base: '/migration-workflow-docs/2.0/',
-  title: 'Migration Workflow V2.0',
+  title: 'Migration Workflow V2.0.2',
   description: 'Migration Workflow Laravel Package',
   markdown: {
     lineNumbers: false
